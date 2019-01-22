@@ -20,7 +20,7 @@ class PostsController < ApplicationController
 	end
 
 	def update
-		#@article = Article.find(params[:id])
+		@article = Article.find(params[:id])
 		raise params.inspect
 	end
 
