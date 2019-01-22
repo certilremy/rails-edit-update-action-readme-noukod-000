@@ -1147,3 +1147,10 @@ Processing by PostsController#edit as HTML
   Parameters: {"id"=>"2"}
   Rendered posts/edit.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/2/edit" for 190.115.179.49 at 2019-01-22 15:49:17 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendered posts/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
